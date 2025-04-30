@@ -29,9 +29,9 @@ class Program
 
             Count++;
 
-            if (guess == 7)
+            if (Count == 7)
             {
-                Console.WriteLine("你該放棄了！");
+                Console.WriteLine($"猜七次還沒猜到，你該放棄了！正確答案是:{target}");
                 break;
             }
             if (guess == target)
